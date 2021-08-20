@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f0f2f5;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.Profile_profile_container__1x0aI .Sidebar_sidebar__1v4SC {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 1px 3px 0 #0000003b;
+  overflow: visible;
+}
+.profile_container_wrapper .postBox_Wrapper {
+  width: 100%;
+}
+.profile_container_wrapper .post_card {
+  width: 100%;
+}
+
+button.Profile_btn__1_PXy.btnHover {
+  background-color: #808080;
+}
+.chatMenuHover {
+  transform: translateX(214.64px) !important;
+}
+.chatUser {
+  transform: translateX(0) !important;
+}
+
+@media (max-width: 450px) {
+  .active:last-child {
+    display: none;
+  }
+}

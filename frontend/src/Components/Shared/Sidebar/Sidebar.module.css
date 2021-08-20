@@ -1,0 +1,41 @@
+.sidebar {
+  position: sticky;
+  top: 5.6rem;
+  left: 0;
+  flex: 4;
+  font-size: 2rem;
+  overflow-y: scroll;
+  padding: 2rem 2rem 0rem 1rem;
+  height: calc(100vh - 5.6rem);
+}
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+  overflow: hidden;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(136 134 134 / 51%);
+  border-radius: 34px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.sidebar:hover::-webkit-scrollbar {
+  overflow: auto;
+}
+.li {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.li:hover {
+  background-color: #80808026;
+}
+.user_page {
+  margin: 1rem 0;
+}
+
+@media (max-width:768px) {
+  .sidebar{
+    display: none;
+  }
+}

@@ -1,0 +1,74 @@
+.contact {
+  position: sticky;
+  top: 5.6rem;
+  left: 0;
+  flex: 4;
+  font-size: 2rem;
+  overflow-y: scroll;
+  padding: 2rem 2rem 0rem 1rem;
+  height: calc(100vh - 5.6rem);
+}
+.contact::-webkit-scrollbar {
+  width: 8px;
+  overflow: hidden;
+}
+.contact::-webkit-scrollbar-thumb {
+  background-color: rgb(136 134 134 / 51%);
+  border-radius: 34px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.contact:hover::-webkit-scrollbar {
+  overflow: auto;
+}
+.li {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.li::before{
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: .6rem;
+  background-color: rgb(34, 255, 34);
+  z-index: 44;
+  left: 3.2rem;
+  border-radius: 50%;
+}
+.li:hover {
+  background-color: #80808026;
+}
+.li:first-child:hover {
+  background-color: transparent;
+  cursor: default;
+}
+.li:first-child::before{
+  background-color: transparent;
+}
+.color {
+  color: #808080b8;
+  font-weight: 500;
+}
+
+.user_image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  position: relative;
+  object-fit: cover;
+  height: 3rem;
+}
+
+@media (max-width:768px) {
+  .contact{
+    display: none;
+  }
+}

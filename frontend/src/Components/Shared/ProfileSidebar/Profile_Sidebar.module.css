@@ -1,0 +1,28 @@
+.box {
+  /* width: 100%; */
+  background: #fff;
+  padding: 2rem;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 0 #0000003b;
+  margin-bottom: 2rem;
+}
+.li {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.head {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.btn{
+  background-color: #b2bec3b0;
+  color: #000;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 10px;
+}

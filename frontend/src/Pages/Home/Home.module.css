@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  /* padding:1rem; */
+  min-height: calc(100vh - 5.6rem);
+}
+
+@media (max-width:800px) {
+  .home{
+    display: block;
+  }
+}

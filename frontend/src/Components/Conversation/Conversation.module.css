@@ -1,0 +1,67 @@
+.chatUser {
+  padding: 1rem;
+}
+.activeuser {
+  margin-bottom: 2rem;
+}
+.li {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.user_image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.6rem;
+}
+.chatMenu {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .chatUser {
+    position: fixed;
+    z-index: 555;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    height: calc(100vh - 56px - 55.5px);
+    background-color: #1877f2;
+    color: white;
+    padding: 0;
+  }
+  .chatMenu {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 55;
+    padding: 1rem;
+    transition: all 0.5s;
+    transform: translateX(0px);
+    background-color: #1877f2;
+    border-radius: 0 0.5rem 0.5rem 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  .li {
+    padding: 1rem 8rem 1rem 1.8rem;
+    border-radius: 0;
+  }
+
+  .li:hover {
+    background-color: red;
+  }
+}

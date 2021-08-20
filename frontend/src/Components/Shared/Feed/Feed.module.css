@@ -1,0 +1,11 @@
+.feed {
+  flex: 9;
+  padding: 2rem 2rem 0rem 1rem;
+}
+
+@media (max-width:800px) {
+  .feed{
+    padding:2rem 0 ;
+  }
+}
+
